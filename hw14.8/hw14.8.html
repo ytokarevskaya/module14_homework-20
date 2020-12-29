@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="hw14.8.js"></script>
+    <title>Задание 14.8</title>
+    <style>
+      .d-flex {
+        display: flex;
+        align-items: flex-end;
+      }
+      .d-flex-column {
+        display: flex;
+        flex-direction: column;
+      }
+      .width-100 {
+        max-width: 900px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d-flex">
+      <div class="d-flex-column">
+        <label>Номер страницы</label>
+        <input type="text" class="formInput" id="">
+      </div>
+      <div class="d-flex-column">
+        <label>Лимит</label>
+        <input type="text" class="formInput" id="">
+      </div>
+      <div>
+        <button type="button" class="btn" id="btn">Запрос</button>
+      </div>
+    </div>
+    <div class="result"></div>
+  </body>
+</html>
